@@ -19,6 +19,7 @@ function App() {
 
       <Head />
       <body>
+        
         <div class="hero_area">
           <Hero_bg_box />
           <Header />
