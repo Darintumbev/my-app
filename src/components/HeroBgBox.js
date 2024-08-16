@@ -1,7 +1,7 @@
-export const Hero_bg_box = () => {
+export const HeroBgBox = () => {
     return (
-        <div class="hero_bg_box">
-            <div class="bg_img_box">
+        <div classname="hero_bg_box">
+            <div classname="bg_img_box">
                 <img src="images/hero-bg.png" alt="" />
             </div>
         </div>

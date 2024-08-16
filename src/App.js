@@ -3,10 +3,10 @@ import { Fragment } from 'react';
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Head } from './components/Head';
-import { Hero_bg_box } from './components/Hero_bg_box';
-import { Slider_section } from './components/Slider_section';
-import { Service_section } from './components/Service_section';
-import { About_section } from './components/About_section';
+import { HeroBgBox } from './components/HeroBgBox';
+import { SliderSection } from './components/SliderSection';
+import { ServiceSection } from './components/ServiceSection';
+import { AboutSection } from './components/AboutSection';
 import { Why_section } from './components/Why_section';
 import { Team_section } from './components/Team_section';
 import { Client_section } from './components/Client_section';
@@ -16,17 +16,17 @@ import { Info_section } from './components/Info_section';
 function App() {
   return (
     <Fragment>
-
+     
       <Head />
       <body>
-        <div class="hero_area">
-          <Hero_bg_box />
+        <div className="hero_area">
+          <HeroBgBox />
           <Header />
-          <Slider_section />
+          <SliderSection />
         </div>
-        <Service_section />
-        <Slider_section />
-        <About_section />
+        <ServiceSection />
+        
+        <AboutSection />
         <Why_section />
         <Team_section />
         <Client_section />
